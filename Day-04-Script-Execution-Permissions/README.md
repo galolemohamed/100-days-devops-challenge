@@ -6,7 +6,7 @@ Today I worked on a Linux file permissions task in the Stratos Datacenter enviro
 During the exercise, I connected to **App Server 1** and inspected the permissions of the script located at `/tmp/xfusioncorp.sh`. The file initially had no permissions assigned, which prevented it from being executed.
 
 ## What I Did
-First, I verified the current permissions of the script using the `ls -l` command. The output showed that the file had no read, write, or execute permissions.
+First, I verified the current permissions of the script using the `ls -l /tmp/xfusioncorp.sh` command. The output showed that the file had no read, write, or execute permissions.
 
 
 Since the script needed to be executable by all users, I used `sudo` to modify the file permissions and grant execute access.
