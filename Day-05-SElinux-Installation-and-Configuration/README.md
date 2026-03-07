@@ -1,4 +1,4 @@
-# Day X – SELinux Installation and Permanent Disablement
+# Day 5 – SELinux Installation and Permanent Disablement
 
 ## What is SELinux?
 
